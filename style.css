@@ -213,6 +213,22 @@ body {
     padding: 0 20px;
     box-sizing: border-box;
 }
+.photo-preview {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.thumb {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid rgb(27, 67, 50);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
 /* 10. Animations */
 @keyframes shimmer {
