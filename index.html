@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Durga!!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <!-- Image Slideshow (hidden initially) -->
+    <div id="slideshow" class="slideshow">
+        <img id="slideshowImg" class="slideshow-img" src="" alt="Memory" />
+        <div class="slide-counter" id="slideCounter"></div>
+    </div>
+
+    <!-- Center Birthday Text (hidden initially) -->
+    <div id="centerText" class="center-wish">Happy Birthday Durga 🎂</div>
+
+    <!-- Popup -->
+    <div id="birthdayPopup" class="popup">
+        <div class="popup-content">
+            <h1>Happy Birthday, Durga</h1>
+            <p>Wishing you a day filled with joy and Happiness !</p>
+
+            <!-- Image Upload Section -->
+            <div class="upload-section">
+                <label for="imageUpload" class="upload-label">
+                    📸 Upload Your Photos First!
+                    <input type="file" id="imageUpload" accept="image/*" multiple hidden />
+                </label>
+                <div id="uploadStatus" class="upload-status">No photos selected yet</div>
+            </div>
+
+            <button id="playSongBtn">inga click pannu</button>
+        </div>
+    </div>
+
+    <audio id="mybirthdaySong" src="song1.mp3" preload="auto"></audio>
+</body>
+</html>
